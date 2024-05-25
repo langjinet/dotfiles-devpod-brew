@@ -14,6 +14,8 @@ packages=(
 	ripgrep
 	go
 	npm
+	starship
+	lazygit
 )
 
 # Iterate over the array and install each package
