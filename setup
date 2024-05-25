@@ -15,12 +15,14 @@ packages=(
 	npm
 	starship
 	lazygit
+	kubectl
+	derailed/k9s/k9s
+	brew install fluxcd/tap/flux
 )
 
-# Iterate over the array and install each package
 for package in "${packages[@]}"; do
 	echo "Installing $package..."
 	/home/linuxbrew/.linuxbrew/bin/brew install "$package"
 done
 
-echo "All packages have been installed."
+echo "All packages from the setup script have been installed."
