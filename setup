@@ -12,7 +12,6 @@ ln -sf "$PWD/.tmux.conf" "$HOME"/.tmux.conf
 packages=(
 	fd
 	ripgrep
-	go
 	npm
 	starship
 	lazygit
