@@ -19,8 +19,8 @@ fi
 export XDG_CONFIG_HOME="$HOME"/.config
 
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
-export PATH="/Users/mischa/.rd/bin:$PATH"
+#export PATH="/Users/mischa/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
 
 # eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+#export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
