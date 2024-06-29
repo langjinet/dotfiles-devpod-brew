@@ -13,11 +13,8 @@ packages=(
 	fd
 	ripgrep
 	npm
-	starship
 	lazygit
-	kubectl
-	derailed/k9s/k9s
-	brew install fluxcd/tap/flux
+	fzf
 )
 
 for package in "${packages[@]}"; do
